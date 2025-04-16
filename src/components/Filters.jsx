@@ -33,10 +33,10 @@ const Filters = ({ keyword, setKeyword, category, setCategory, country, setCount
               onChange={(e) => setCountry(e.target.value)}
               label="Country"
             >
-              <MenuItem value="us">🇺🇸 US</MenuItem>
-              <MenuItem value="gb">🇬🇧 UK</MenuItem>
-              <MenuItem value="ca">🇨🇦 Canada</MenuItem>
-              <MenuItem value="in">🇮🇳 India</MenuItem>
+              <MenuItem value="us">US</MenuItem>
+              <MenuItem value="gb">UK</MenuItem>
+              <MenuItem value="ca">Canada</MenuItem>
+              <MenuItem value="in">India</MenuItem>
             </Select>
           </FormControl>
         </Grid>

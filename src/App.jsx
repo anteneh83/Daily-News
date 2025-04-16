@@ -10,16 +10,13 @@ import Contact from './pages/Contact';
 const App = () => {
   return (
     <Router>
-      {/* Header Component */}
       <Header />
 
-      {/* Main Content Area */}
       <Container maxWidth="lg" sx={{ py: 4 }}>
         <Typography variant="h4" component="h1" align="center" color="primary" gutterBottom>
           📰 Latest Tech News
         </Typography>
 
-        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
